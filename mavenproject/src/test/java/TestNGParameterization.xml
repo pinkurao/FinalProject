@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<parameter name="company" value="NET LOGIC SOLUTIONS"/>
+  <test name="Test">
+  <parameter name ="fname" value="Raju"/>
+  <parameter name ="lname" value="Thakkalapelly"/>
+  
+    <classes>
+      <class name="testNG.TestNGParameterization"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+  <parameter name ="fname" value="Pavan"/>
+  <parameter name ="lname" value="Thakkalapelly"/>
+    <classes>
+      <class name="testNG.TestNGParameterization"/>
+    </classes>
+  </test> 
+</suite> 

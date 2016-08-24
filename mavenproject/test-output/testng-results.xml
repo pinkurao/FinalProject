@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27463" started-at="2016-08-24T01:54:08Z" finished-at="2016-08-24T01:54:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27463" started-at="2016-08-24T01:54:08Z" finished-at="2016-08-24T01:54:35Z">
+      <class name="testNG.TestExmple">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testNG.TestExmple@68c4039c]" name="beforeClass" is-config="true" duration-ms="6" started-at="2016-08-23T20:54:08Z" finished-at="2016-08-23T20:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="name()[pri:0, instance:testNG.TestExmple@68c4039c]" name="name" duration-ms="6" started-at="2016-08-23T20:54:08Z" finished-at="2016-08-23T20:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method status="PASS" signature="tech()[pri:0, instance:testNG.TestExmple@68c4039c]" name="tech" duration-ms="1" started-at="2016-08-23T20:54:08Z" finished-at="2016-08-23T20:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tech -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testNG.TestExmple@68c4039c]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-08-23T20:54:08Z" finished-at="2016-08-23T20:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNG.TestExmple -->
+      <class name="testNG.YoutubeTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testNG.YoutubeTest@6a4f787b]" name="beforeClass" is-config="true" duration-ms="18445" started-at="2016-08-23T20:54:08Z" finished-at="2016-08-23T20:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="songSearch()[pri:0, instance:testNG.YoutubeTest@6a4f787b]" name="songSearch" duration-ms="2248" started-at="2016-08-23T20:54:26Z" finished-at="2016-08-23T20:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- songSearch -->
+        <test-method status="PASS" signature="searchClick()[pri:0, instance:testNG.YoutubeTest@6a4f787b]" name="searchClick" duration-ms="2465" started-at="2016-08-23T20:54:28Z" finished-at="2016-08-23T20:54:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchClick -->
+        <test-method status="PASS" signature="songSelect()[pri:0, instance:testNG.YoutubeTest@6a4f787b]" name="songSelect" duration-ms="4263" started-at="2016-08-23T20:54:31Z" finished-at="2016-08-23T20:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- songSelect -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testNG.YoutubeTest@6a4f787b]" name="afterClass" is-config="true" duration-ms="26" started-at="2016-08-23T20:54:35Z" finished-at="2016-08-23T20:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNG.YoutubeTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

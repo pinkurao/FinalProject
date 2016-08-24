@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name = "Premium"/>
+  <include name = "AUDI"/>
+  <include name = "Sedan"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="testNG.GroupsTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
